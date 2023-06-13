@@ -48,10 +48,23 @@ function calculateAverage(number) {
     for (let i = 0; i < number.length; i++) {
       sum += number[i];
     }
-  
-    return sum /number.length;
+  average = sum /number.length;
+    return average;
   }
   
   var numbers = [4, 7, 12, 3, 9];
   var average = calculateAverage(numbers);
-  console.log(average); // Output: 7
+//   console.log(average);
+
+  
+// ৪. একটা ফাংশন লিখো। যেটা ইনপুট প্যারামিটার হিসেবে একটা আয়তক্ষেত্রের দৈর্ঘ্য আর উচ্চতাকে নিবে। তারপর সেই আয়তক্ষেত্র এর area (আয়তন) কে রেজাল্ট হিসেবে রিটার্ন করবে। 
+
+
+function mathOfA(a,b){
+let area =2*a*b;
+// const a=12;
+// const b=12;
+return area;
+}
+area =mathOfA(12,12);
+console.log(area);
